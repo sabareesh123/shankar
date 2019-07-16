@@ -1,22 +1,10 @@
-
-
-m,n=map(int,input().split())
-
-
-for num in range(m,n+1):
-
-   
-   order = len(str(num))
-    
-   
-   sum = 0
-
-  
-   temp = num
-   while temp > 0:
-       digit = temp % 10
-       sum += digit ** order
-       temp //= 10
-
-   if num == sum:
-       print(num)
+vijay,dhanush=map(int,input().split())
+for i in range(vijay+1,dhanush):
+    s=0
+    a=i
+    while(a>0):
+        c=a%10
+        s+=c*c*c
+        a//=10
+    if(i==s):
+      print(i,end=" ")
