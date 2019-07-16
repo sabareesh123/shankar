@@ -1,2 +1,2 @@
-num1,num2=map(int,input().split())
-print(num1**num2)
+num11,num22=map(int,input().split())
+print(num11**num22)
