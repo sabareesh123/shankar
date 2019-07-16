@@ -1,5 +1,5 @@
-vijay,dhanush=map(int,input().split())
-for i in range(vijay+1,dhanush):
+v,m=map(int,input().split())
+for i in range(v+1,m):
     s=0
     a=i
     while(a>0):
