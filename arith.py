@@ -1,3 +1,3 @@
-m1,m22,m3=map(int,input().split())
-z=(m1/2)*(2*m2+(m1-1)*m33)
+s1,s2,s3=map(int,input().split())
+z=(s1/2)*(2*s2+(s1-1)*s3)
 print(int(z))
